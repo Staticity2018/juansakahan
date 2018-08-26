@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: tahoma;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #267926;
+    box-shadow: 2px 2px 5px 2px rgb(238, 238, 238);
+}
+
+.navbar li {
+    list-style-type: none;
+    padding: 10px;
+    float: right;
+}
+
+.navbar .left{
+    float: left;
+}
+
+.navbar .right {
+    display: block;
+    color: white;
+    padding: 5px 10px;
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.leftStyle a {
+    border-right: 2px solid white;
+    display: block;
+    color: white;
+    padding: 5px 10px;
+    padding-top: 5px;
+    padding-right: 15px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.navbar .right:hover, .leftStyle:hover {
+    background-color: rgb(255, 255, 255, 0.2); 
+}
+
+.active {
+    background-color: rgb(255, 255, 255, 0.2); 
+}
+
+.headDescrip {
+    display: block;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 2px;
+    padding-top: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.mainDiv {
+    margin: 0 auto;
+    margin-top: 85px;
+    margin-bottom: 30px;
+    width: 1000px;
+    height: 500px;
+}
+
+.backgroundImg {
+    background-image: url("farmer2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.mainDiv .about{
+    position: relative;
+    top: 50px;
+    left: 550px;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(31, 30, 30, 0.2);
+}
+
+.shortDescript{
+    line-height: 1.8;
+    text-indent: 50px;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: justify;
+    font-family: 'Calibri';
+}
+
+.about:hover {
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(31, 30, 30, 0.5);
+}
+
+.regHeader span {
+    color: #267926;
+    width: 600px;
+}
+
+select {
+    width: 150px;
+    height: 50px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #267926;
+    color: white;
+    border-radius: 5px;
+}
+
+.formStyle a {
+    margin: 10px;
+    background-color: #267926;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+table, tr, th {
+    padding: 20px;
+} 
+
+.about img {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+#logo {
+    width: 100%;
+    height: 100px;
+}
+
+.about div:last-child {
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.formStyle input, input[type="text"] {
+    width: 900px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input[type="email"], input[type="number"] {
+    width: 900px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input[type="password"] {
+    width: 900px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    text-indent: 5px;
+}
+
+label {
+    margin: 10px;
+}
+
+.clickHere {
+    background-color: #267926;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #267926;
+    color: white;
+    border-radius: 5px;
+}
+
+input[value="Register"] {
+    position: relative;
+    left: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.toLogin {
+    position: relative;
+    left: 180px;
+    padding: 10px 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.mainDiv div {
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(31, 30, 30, 0.2);
+}
+
+
+.footer {
+    width: 100%;
+    height: 45px;
+    background-color: gray;
+}
